@@ -1,0 +1,5 @@
+C:\Program Files\PostgreSQL\16\bin\raster2pgsql.exe -s 3763 -N -32767 -t 100x100 -I -C -M -d C:\Users\szymo\5_semestr\analiza_danych_przestrzennych\zajecia_7\OneDrive_2023-11-21\Dane_cw_7\srtm_1arc_v3.tif rasters.dem > C:\Users\szymo\5_semestr\analiza_danych_przestrzennych\zajecia_7\OneDrive_2023-11-21\Dane_cw_7\dem.sql 
+
+C:\Program Files\PostgreSQL\16\bin\raster2pgsql.exe -s 3763 -N -32767 -t 100x100 -I -C -M -d "C:\Users\szymo\5_semestr\analiza_danych_przestrzennych\zajecia_7\OneDrive_2023-11-21\Dane_cw_7\srtm_1arc_v3.tif" rasters.dem | psql -d Zajecia_7 -h localhost -U postgres -p 5432
+
+C:\Program Files\PostgreSQL\16\bin\raster2pgsql.exe -s 3763 -N -32767 -t 128x128 -I -C -M -d C:\Users\szymo\5_semestr\analiza_danych_przestrzennych\zajecia_7\OneDrive_2023-11-21\Dane_cw_7\Landsat8_L1TP_RGBN.TIF rasters.landsat8 | psql -d Zajecia_7 -h localhost -U postgres -p 5432
