@@ -1,0 +1,13 @@
+C:\"Program Files"\PostgreSQL\16\bin\raster2pgsql.exe -s 27700 -N -32767 -t 254x254 -I -C -M -d C:\Users\szymo\5_semestr\analiza_danych_przestrzennych\zajecia_8\ras250_gb\ras250_gb\data\*.tif uk_250k | C:\"Program Files"\PostgreSQL\16\bin\psql.exe -d Zajecia_8 -h localhost -U postgres -p 5432
+
+
+C:\"Program Files"\PostgreSQL\16\bin\raster2pgsql.exe -s 32630 -N -32767 -t 254x254 -I -C -M -d "C:\Users\szymo\5_SEME~1\ANALIZ~1\ZA6603~1\S2A_MS~1.SAF\S2A_MS~1.SAF\GRANULE\L2A_T3~1\IMG_DATA\R10m\T368A9~1.JP2" public.sentinel2_band8_1 | C:\"Program Files"\PostgreSQL\16\bin\psql -d Zajecia_8 -h localhost -U postgres -p 5432
+
+C:\"Program Files"\PostgreSQL\16\bin\raster2pgsql.exe -s 32630 -N -32767 -t 254x254 -I -C -M -d "C:\Users\szymo\5_SEME~1\ANALIZ~1\ZA6603~1\S2A_MS~1.SAF\S2A_MS~1.SAF\GRANULE\L2A_T3~1\IMG_DATA\R10m\T30UWF~3.JP2" public.sentinel2_band3_1 | C:\"Program Files"\PostgreSQL\16\bin\psql -d Zajecia_8 -h localhost -U postgres -p 5432
+
+C:\"Program Files"\PostgreSQL\16\bin\raster2pgsql.exe -s 32630 -N -32767 -t 254x254 -I -C -M -d "C:\Users\szymo\5_SEME~1\ANALIZ~1\ZA6603~1\S2A_MS~2.SAF\S2A_MS~1.SAF\GRANULE\L2A_T3~1\IMG_DATA\R10m\T33C8B~1.JP2" public.sentinel2_band8_2 | C:\"Program Files"\PostgreSQL\16\bin\psql -d Zajecia_8 -h localhost -U postgres -p 5432
+
+C:\"Program Files"\PostgreSQL\16\bin\raster2pgsql.exe -s 32630 -N -32767 -t 254x254 -I -C -M -d "C:\Users\szymo\5_SEME~1\ANALIZ~1\ZA6603~1\S2A_MS~2.SAF\S2A_MS~1.SAF\GRANULE\L2A_T3~1\IMG_DATA\R10m\T30UVF~3.JP2" public.sentinel2_band3_2 | C:\"Program Files"\PostgreSQL\16\bin\psql -d Zajecia_8 -h localhost -U postgres -p 5432
+
+
+
