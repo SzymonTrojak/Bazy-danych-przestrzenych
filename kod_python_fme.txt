@@ -1,0 +1,8 @@
+import requests
+
+url = 'http://LAPTOP-TLOTVGII/fmedatadownload/Dashboards/shapefile2none.fmw?email=szymont888%40gmail.com&pipline=kielce5&Haslo=aaa&emailklienta=szymont888%40gmail.com&chmury=50&startdata=20230701000000&data_koniec=20230731000000&powiat=Kielce&klucz=4cf44e3c-95fd-4571-95ee-4ed5fc19a269&SourceDataset_SHAPEFILE=%22C%3A%5CUsers%5Cszymo%5CDownloads%5Cpowiaty_trojak%5Cpowiaty.shp%22&DestDataset_GEOTIFF=C%3A%5CUsers%5Cszymo%5C5_semestr%5CCoach&opt_showresult=false&opt_servicemode=sync'
+myobj = {'Authorization': 'fmetoken token=33cce6451b409b273355c398408e7317dce66b20'}
+
+x = requests.post(url, headers = myobj)
+
+print(x.text)

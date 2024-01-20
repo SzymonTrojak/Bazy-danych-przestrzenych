@@ -1,0 +1,26 @@
+Name:
+Webhook - shapefile2none from Dashboards - a88e0d79-2ece-0c30-be2f-95e3fb1ab314
+
+Token:
+33cce6451b409b273355c398408e7317dce66b20
+
+Description:
+Allow users to run Dashboards/shapefile2none without logging in
+
+Created Date:
+2024-01-20T16:44:11.760Z
+
+Expiration Date:
+2025-01-19T23:00:00.000Z
+
+Enabled:
+true
+
+Authorization with Header:
+http://LAPTOP-TLOTVGII/fmedatadownload/Dashboards/shapefile2none.fmw?email=szymont888%40gmail.com&pipline=kielce5&Haslo=&emailklienta=szymont888%40gmail.com&chmury=50&startdata=20230701000000&data_koniec=20230731000000&powiat=Kielce&klucz=4cf44e3c-95fd-4571-95ee-4ed5fc19a269&SourceDataset_SHAPEFILE=%22C%3A%5CUsers%5Cszymo%5CDownloads%5Cpowiaty%20(2)%5Cpowiaty.shp%22&DestDataset_GEOTIFF=C%3A%5CUsers%5Cszymo%5C5_semestr%5CCoach&opt_showresult=false&opt_servicemode=sync
+Header Key: Authorization
+Header Value: fmetoken token=33cce6451b409b273355c398408e7317dce66b20
+
+Authorization with Query String:
+http://LAPTOP-TLOTVGII/fmedatadownload/Dashboards/shapefile2none.fmw?email=szymont888%40gmail.com&pipline=kielce5&Haslo=&emailklienta=szymont888%40gmail.com&chmury=50&startdata=20230701000000&data_koniec=20230731000000&powiat=Kielce&klucz=4cf44e3c-95fd-4571-95ee-4ed5fc19a269&SourceDataset_SHAPEFILE=%22C%3A%5CUsers%5Cszymo%5CDownloads%5Cpowiaty%20(2)%5Cpowiaty.shp%22&DestDataset_GEOTIFF=C%3A%5CUsers%5Cszymo%5C5_semestr%5CCoach&opt_showresult=false&opt_servicemode=sync&token=33cce6451b409b273355c398408e7317dce66b20
+
